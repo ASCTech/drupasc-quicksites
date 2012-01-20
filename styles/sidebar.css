@@ -1,0 +1,122 @@
+#sidebar-filler, #sidebar-filler > div {
+	position: relative;
+	width: 100%;
+	overflow: visible;
+}
+
+#sidebar-filler > div {
+	right: 670px;
+}
+
+#sidebar-filler {
+	right: -670px;
+}
+
+#sidebar {
+	width: 280px;
+	margin-top: -43px;
+	float: right;
+	padding: 25px 0;
+	z-index: 1;
+	border-top: 43px solid;
+	color: #fff;
+}
+
+#sidebar a {
+	color: #fff;
+}
+
+#sidebar .block-edit-link a {
+	color: #000;
+}
+
+#sidebar div.block-menu {
+	border: 1px solid #cccccc;
+	border-right-width: 0;
+	padding: 5px 0 5px 15px;
+	margin-bottom: 30px;
+}
+
+#sidebar ul.menu {
+	padding: 0;
+	width: 100%;
+	list-style: none;
+	list-style-image: none;
+}
+
+#sidebar ul.menu li {
+	list-style: none;
+	list-style-image: none;
+	line-height: 2.3em;
+	padding: 0 0 3px;
+	margin: 0 15px;
+	background: url("../images/menu-separator.png") repeat-x left bottom;
+}
+
+#sidebar ul.menu li ul li {
+	margin: 0;
+}
+
+#sidebar ul.menu li.last,
+#sidebar ul.menu li ul li {
+	background-image: none;
+	padding: 0;
+}
+
+#sidebar ul.menu li ul {
+	width: auto;
+}
+
+#sidebar ul.menu li a.active {
+	color: #333;
+}
+
+#sidebar ul.menu li a {
+	font-size: 92.3%;
+	padding-left: 15px;
+	margin-left: -15px;
+	color: #fff;
+	display: block;
+}
+
+#sidebar ul.menu li ul li a {
+	padding-left: 40px;
+}
+
+#sidebar ul.menu li ul li ul li a {
+	padding-left: 65px;
+}
+
+#sidebar .padded {
+	padding: 0 20px;
+}
+
+#sidebar .white {
+	color: #fff;
+}
+
+#sidebar h3 {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+  padding-left: 10px;
+}
+
+#sidebar .block .content p {
+	color: #fff;
+	padding: 10px;
+}
+#sidebar .block .content h1, #sidebar .block .content h2, #sidebar .block .content h3, #sidebar .block .content h4 {
+	color: #fff;
+	margin-left: 5px;
+	background: url("../images/menu-separator.png") repeat-x scroll left bottom transparent;
+}
+
+#sidebar .block .content p a:link, #sidebar .block .content p a:visited {
+  color: #ccc;
+}
+#sidebar .block .content p a:hover, #sidebar .block .content p a:active {
+  color: #ccc;
+  text-decoration: underline;
+}

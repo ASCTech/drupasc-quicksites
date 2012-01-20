@@ -1,0 +1,89 @@
+/* Header */
+
+#header {
+	background-color: #e1e1e1;
+}
+
+#header-container {
+	background: #e1e1e1 url(images/header.png) top left no-repeat;
+}
+
+#header-tile {
+	background: #d6d6d6;
+}
+
+
+/* Front */
+
+#front-header .container {
+	background: #948c81 url(images/front-header.png) 470px 0 no-repeat;
+}
+
+#front-header-tile {
+	background: #948C81 url(images/front-header.png) -5px 0 no-repeat;
+}
+
+#front-image {
+	background: transparent url(images/front-image-b.png) no-repeat;
+}
+
+body.layout-a #front-image {
+	background: transparent url(images/front-image-a.png) no-repeat;
+}
+
+
+/* Sidebar */
+
+#sidebar-filler {
+	background-color: #796F61;
+}
+
+#sidebar ul.menu li a.active {
+	background-color: #C9C5C0;
+}
+
+#sidebar {
+	border-top-color: #302C27;
+}
+
+#sidebar .calendar-calendar .month-view .date-nav {
+	background-color: #302C27;
+}
+
+#sidebar .calendar-calendar .month-view table.mini thead th {
+	background-color: #AFA9A0;
+}
+
+#sidebar .calendar-calendar .month-view table.mini tbody td {
+	border-color: #EBEAE7;
+}
+
+#sidebar .calendar-calendar .month-view table.mini td.today {
+	background-color: #F2F1F0;
+}
+
+#sidebar .calendar-calendar .month-view table.mini td.has-events:hover {
+	background-color: #EBEAE7;
+}
+
+#sidebar .calendar-calendar .month-view table.mini td.active {
+	background-color: #E4E2DF;
+}
+
+/* Features */
+
+.feature .view-header {
+	background-color: #796F61;
+	background-repeat: no-repeat;
+}
+
+.feature .view-content {
+	border-color: #796F61;
+}
+
+
+/* Footer */
+
+#footer {
+	background: #948C81 url(images/footer.png) no-repeat top center;
+}

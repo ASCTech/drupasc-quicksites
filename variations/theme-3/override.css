@@ -1,0 +1,114 @@
+/* Header */
+
+#header {
+	background: #e1e1e1;
+}
+
+#header-container {
+	background: #e1e1e1 url(images/header.png) top left no-repeat;
+}
+
+#header-tile {
+	background: #d6d6d6;
+}
+
+
+/* Front */
+
+#front-header .container {
+	background: #393127 url(images/front-header.png) 470px 0 no-repeat;
+}
+
+#front-header-tile {
+	background: #17140f url(images/front-header.png) -5px 0 no-repeat;
+}
+
+#front-image {
+	background: transparent url(images/front-image-b.png) no-repeat;
+}
+
+body.layout-a #front-image {
+	background: transparent url(images/front-image-a.png) no-repeat;
+}
+
+
+/* Sidebar */
+
+#sidebar-filler {
+	background-color: #393127;
+}
+
+#sidebar ul.menu li a.active {
+	background-color: #B0ADA9;
+}
+
+#sidebar {
+	border-top-color: #171410;
+}
+
+#sidebar .calendar-calendar .month-view .date-nav {
+	background-color: #171410;
+}
+
+#sidebar .calendar-calendar .month-view table.mini thead th {
+	background-color: #88837D;
+}
+
+#sidebar .calendar-calendar .month-view table.mini tbody td {
+	border-color: #E1E0DF;
+}
+
+#sidebar .calendar-calendar .month-view table.mini td.today {
+	background-color: #ECEBEA;
+}
+
+#sidebar .calendar-calendar .month-view table.mini td.has-events:hover {
+	background-color: #E1E0DF;
+}
+
+#sidebar .calendar-calendar .month-view table.mini td.active {
+	background-color: #D7D6D4;
+}
+
+
+/* Features */
+
+.feature .view-header {
+	background-color: #133748;
+	background-repeat: no-repeat;
+}
+
+.feature .view-id-News > .view-header {
+	background-image: url(images/features-news.png);
+}
+
+.feature .view-id-Events > .view-header {
+	background-image: url(images/features-events.png);
+}
+
+.feature .view-id-People > .view-header {
+	background-image: url(images/features-people.png);
+}
+
+#front_block3 .view-id-News > .view-header {
+	background-image: url(images/features-news2.png);
+}
+
+#front_block3 .view-id-Events > .view-header {
+	background-image: url(images/features-events2.png);
+}
+
+#front_block3 .view-id-People > .view-header {
+	background-image: url(images/features-people2.png);
+}
+
+.feature .view-content {
+	border-color: #133748;
+}
+
+
+/* Footer */
+
+#footer {
+	background: #17140f url(images/footer.png) no-repeat top center;
+}

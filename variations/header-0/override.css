@@ -1,0 +1,11 @@
+#header {
+	background: #e1e1e1;
+}
+
+#header-container {
+	background: #e1e1e1 url(header.png) top left no-repeat;
+}
+
+#header-tile {
+	background: #d6d6d6;
+}

@@ -1,0 +1,11 @@
+#header {
+	background: #e6e6e6 url(header.png) center top repeat-x;
+}
+
+#header-container {
+	background: transparent;
+}
+
+#header-tile {
+	background: transparent;
+}
