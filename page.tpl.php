@@ -28,7 +28,7 @@ $no_title_node_types = array("events", "people");
 </head>
 <body class="<?php print $body_classes." theme-$quickSites_theme layout-$quickSites_layout"; ?>">
 
-	<?php require_once("sites/all/themes/quickSites/navbar/osu-navbar-b-custom.php"); ?>
+        <?php require_once("navbar/osu-navbar-b-custom.php"); ?>
 
 	<div id="header">
 		<div class="container">
@@ -87,7 +87,7 @@ $no_title_node_types = array("events", "people");
 	<div id="footer_copyright" class="clearfix">
 		<div class="small">
 			<p>&copy; <?php print date("Y"); ?>, The Ohio State University, College of Arts and Sciences</p>
-			<?php include("sites/all/themes/quickSites/icons/uicons_basic.php"); ?>
+			<?php include("icons/uicons_basic.php"); ?>
 		</div>
 	</div>
 

@@ -15,7 +15,7 @@
 				<?php if($tabs){ ?>
 					<?php print $tabs ?>
 				<?php } ?>
-				<?php if($title && (!$node->type || !in_array($node->type, $no_title_node_types))){ ?>
+				<?php if($title && isset($node->type) && !in_array($node->type, $no_title_node_types)){ ?>
 				<h1 id="title"><?php print $title ?></h1>
 				<?php } ?>
 	

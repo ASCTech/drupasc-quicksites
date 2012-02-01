@@ -1,5 +1,5 @@
 name = Arts and Sciences Quick Sites
-description = Configurable A&S Theme.
+description = Drupal dot asc Configurable A&S Theme.
 core = 6.x
 engine = phptemplate
 
